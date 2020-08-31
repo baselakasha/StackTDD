@@ -13,10 +13,9 @@ def test_stack_not_empty_after_one_push(my_stack):
     assert my_stack.isEmpty() is False
 
 def test_stack_empty_after_one_push_and_one_pull(my_stack):
-    test_stack = Stack()
-    test_stack.push(0)  
-    test_stack.pull()
-    assert test_stack.isEmpty()
+    my_stack.push(0)  
+    my_stack.pull()
+    assert my_stack.isEmpty()
 
 def test_stack_not_empty_after_two_pushes_and_one_pull(my_stack):
     my_stack.push(123)
