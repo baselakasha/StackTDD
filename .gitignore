@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Java
+# Ignore everything in Java
+Java/*
+#Except src and pom.xml
+!Java/src
+!Java/pom.xml
