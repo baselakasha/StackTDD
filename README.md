@@ -16,6 +16,7 @@ We love your input! We want to make contributing to this project as easy and tra
 1. Fork the repo and create your branch from `master`.
 2. Follow test driven approach to add code or fix other code.
 3. Ensure the test suite passes.
+4. Dont't forget to add the unnecessary files and folders to the `.gitignore` file.
 5. Open a Pull Request
 
 ### Any contributions you make will be under the MIT Software License
